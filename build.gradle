@@ -1,8 +1,8 @@
 buildscript {
     ext {
         kotlinVersion = '1.2.41'
-        springBootVersion = '2.0.2.RELEASE'
-//		springBootVersion = '1.5.9.RELEASE'
+//        springBootVersion = '2.0.2.RELEASE'
+		springBootVersion = '1.5.9.RELEASE'
     }
     repositories {
         mavenCentral()
@@ -49,6 +49,6 @@ dependencies {
 }
 
 springBoot {
-    mainClassName = 'com.example.demo.DemoApplicationKt'
-//	mainClass = 'com.example.demo.DemoApplicationKt'
+//    mainClassName = 'com.example.demo.DemoApplicationKt'
+	mainClass = 'com.example.demo.DemoApplicationKt'
 }
